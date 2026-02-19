@@ -1,0 +1,37 @@
+Path B — Deploy without running locally (Streamlit Cloud)
+
+This path creates a personal live link.
+
+1) Fork the repo
+
+Open the repo on GitHub
+
+Click Fork (top right)
+
+Keep it public
+
+2) Deploy on Streamlit Community Cloud
+
+Open Streamlit Community Cloud
+
+Click New app
+
+Choose the forked repo
+
+Branch: main
+
+Main file path: app.py
+
+Click Deploy
+
+When deployment finishes, Streamlit will generate a URL.
+
+3) Edit and redeploy from GitHub (no local tools)
+
+Open app.py in GitHub
+
+Click the pencil icon to edit
+
+Commit changes
+
+Refresh the Streamlit app URL (it redeploys automatically)
